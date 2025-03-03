@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "xyz.kboapp",
+      "sha256_cert_fingerprints": [
+        "11:47:FA:BC:DC:8A:BE:D4:C0:87:0A:11:29:C4:D5:11:3C:6B:24:7D:74:7B:E6:7D:E6:57:4E:F8:3E:90:F5:37"
+      ]
+    }
+  }
+]
