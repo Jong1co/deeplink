@@ -7,6 +7,12 @@
         "paths": [
           "/invitation"
         ]
+      },
+      {
+        "appID": "3377LPQ56P.xyz.kboapp",
+        "paths": [
+          "/"
+        ]
       }
     ]
   }
