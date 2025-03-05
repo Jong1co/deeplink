@@ -1,11 +1,15 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "xyz.kboapp",
       "sha256_cert_fingerprints": [
-        "11:47:FA:BC:DC:8A:BE:D4:C0:87:0A:11:29:C4:D5:11:3C:6B:24:7D:74:7B:E6:7D:E6:57:4E:F8:3E:90:F5:37"
+        "11:47:FA:BC:DC:8A:BE:D4:C0:87:0A:11:29:C4:D5:11:3C:6B:24:7D:74:7B:E6:7D:E6:57:4E:F8:3E:90:F5:37",
+        "CB:5F:7D:21:50:99:FF:BB:CD:41:61:F3:0A:32:FC:2B:17:F0:7D:E9:E8:83:89:01:5D:57:01:CE:9E:30:D5:D4"
       ]
     }
   }
