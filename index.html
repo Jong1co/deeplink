@@ -5,13 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>오늘의 야구</title>
     <meta property="og:title" content="오늘의 야구" />
+    <meta property="og:site_name" content="오늘의 야구" />
+
     <meta
       property="og:description"
       content="오늘의 경기 기록을 오늘의 야구와 함께 작성해보세요!"
     />
+    <meta
+      property="twitter:description"
+      content="오늘의 경기 기록을 오늘의 야구와 함께 작성해보세요!"
+    />
+
     <meta property="og:image" content="./og_image.png" />
     <meta property="og:url" content="https://deeplink-beryl.vercel.app" />
     <meta property="og:type" content="website" />
+    <script>
+      window.onload = () => {
+        window.location.href = "kboapp://";
+      };
+    </script>
   </head>
   <body></body>
 </html>
